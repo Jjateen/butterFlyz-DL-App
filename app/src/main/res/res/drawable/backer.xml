@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer 1: Rounded corner background -->
+    <item>
+        <shape>
+            <solid android:color="#efebd6" /> <!-- Background color of the button -->
+            <corners android:radius="50dp" /> <!-- Radius for rounded corners -->
+        </shape>
+    </item>
+    <item android:drawable="@drawable/backb" />
+</layer-list>

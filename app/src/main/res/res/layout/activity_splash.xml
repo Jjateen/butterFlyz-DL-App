@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efebd6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="158dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/predictButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttons_small"
+        android:text="Click Image"
+        android:textAllCaps="false"
+        android:textColor="#ccffcc"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="460dp"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTintMode="screen" />
+
+    <TextView
+        android:id="@+id/classified"
+        style="@style/TextViewWithStroke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="100dp"
+        android:text="Predicted Age:"
+        android:textColor="#ff9900" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="158dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/predictButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttons_small"
+        android:text="Select Image"
+        android:textAllCaps="false"
+        android:textColor="#ccffcc"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:foreground="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/result"
+        style="@style/TextViewWithStroke"
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/classified"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="14dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#51a5ba"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_long"
+        android:text="Predict"
+        android:textAllCaps="false"
+        android:textColor="#FFFBD0"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:foreground="?android:attr/selectableItemBackground" />
+
+    <Button
+        android:id="@+id/credButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        android:layout_toStartOf="@+id/predictButton"
+        android:background="@drawable/cred"
+        android:text="i"
+        android:textColor="#ffffff"
+        android:foreground="?android:attr/selectableItemBackground" />
+</RelativeLayout>
