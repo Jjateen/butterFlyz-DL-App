@@ -52,7 +52,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Jjateen](https://github.com/Jjateen)
 
-<video width="1080" height="1080" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## Demo Video
+
+Check out the demo video of the Butterfly Image Classification Android App [here](https://drive.google.com/file/d/1B4qzBR3M1KTyKFHx-wwkrSth2WwpEQli/view?usp=sharing).
