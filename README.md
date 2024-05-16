@@ -1,6 +1,6 @@
 # Butterfly Image Classification Android App
 
-This repository contains an Android app for butterfly image classification. The app utilizes a pre-trained model for classifying butterfly images.
+This repository contains an Android app for butterfly image classification. The app utilizes a deep learning model for classifying butterfly images.
 
 ## Project Structure
 
